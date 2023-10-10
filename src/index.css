@@ -1,0 +1,28 @@
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  --fondo: #17171C;
+
+  --fondo-calculadora: #ffffff;
+  --texto: #000000;
+  --primario: #27b1bf;
+  --secundario: #c9e2d0;
+  --terciario: #e4f0e7;
+
+  --box-shadow: 0 0 50px rgba(0, 0, 0, 0.20);
+
+  background-color: var(--fondo);
+  color: var(--texto);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
