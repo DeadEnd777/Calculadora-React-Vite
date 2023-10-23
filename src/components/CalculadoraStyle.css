@@ -1,9 +1,12 @@
 main {
   background-color: var(--fondo-calculadora);
+  /* mantiene una proporcion de pantalla o del elemento de la cual se modificara por cada 9/16 es como si tuvieramos una pantalla de telefono*/
   aspect-ratio: 9/16;
   border-radius: 1rem;
+  /* le definimos la altura del elemento y le damos un minimo por si se llega a reducir la pantalla */
   height: 80%;
-  min-height: 600px;
+  min-height: 50%;
+  /* le definimos un box shadow para que se distorsione un poco mas del fondo,  */
   box-shadow: var(--box-shadow);
   padding: .5rem;
   display: grid;

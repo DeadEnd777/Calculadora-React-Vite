@@ -10,7 +10,7 @@ button:active {
     transform: scale(1.02);
 }
 
-button.gris {
+button.second {
     background-color: var(--secundario);
 }
 

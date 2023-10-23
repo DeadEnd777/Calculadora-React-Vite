@@ -9,7 +9,7 @@
   --primario: #27b1bf;
   --secundario: #c9e2d0;
   --terciario: #e4f0e7;
-
+  /* iniciara en el eje X y en el eje Y en cero y le añadimos 50px de blur, color negro con una opacidad del 20% */
   --box-shadow: 0 0 50px rgba(0, 0, 0, 0.20);
 
   background-color: var(--fondo);

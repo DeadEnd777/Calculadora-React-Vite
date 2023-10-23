@@ -76,9 +76,9 @@ const Calculadora = () => {
       <span className="display" type="text">
         {data.operacion}
       </span>
-      <Boton texto="C" clase="gris" handleClick={limpiar} />
-      <Boton texto="+/-" clase="gris" handleClick={escritura} />
-      <Boton texto="%" clase="gris" handleClick={escritura} />
+      <Boton texto="C" clase="second" handleClick={limpiar} />
+      <Boton texto="+/-" clase="second" handleClick={escritura} />
+      <Boton texto="%" clase="second" handleClick={escritura} />
       <Boton texto="/" clase="operacion" handleClick={escritura} />
       <Boton texto="7" clase="numero" handleClick={escritura} />
       <Boton texto="8" clase="numero" handleClick={escritura} />
