@@ -18,7 +18,7 @@ const Calculadora = () => {
       operacion: `${data.operacion}` + event.target.innerText,
     });
 
-    if (valor == "+/-" && data.operacion == "") return;
+
 
     if (valor == "%" && data.operacion.includes("%")) return;
 
